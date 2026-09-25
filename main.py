@@ -8,6 +8,7 @@ mcp = FastMCP("My Simple Server")
 def greet(name: str) -> str:
     """A tool that greets a user by name."""
     return f"Hello, {name}! Welcome to FastMCP."
+@mcp.tool
 def curse(name:str)->str:
     "A tool to curse a user by name"
     return f"Saale ! Shubham ki {name}"
